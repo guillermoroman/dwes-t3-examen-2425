@@ -187,10 +187,21 @@ Una vez completada la tarea, deberás ser capaz de:
 1. La implementación deberá cumplir con los requisitos funcionales y técnicos descritos.
 2. Se valorará el uso de buenas prácticas en:
     - Organización del código.
-    - Modularidad (uso adecuado de modelos y controladores).
-    - Seguridad (validación de datos y prevención de ataques XSS/SQL Injection).
+    - Modularidad (uso adecuado de modelos y vistas).
 3. La interfaz debe ser clara, intuitiva y consistente con el resto de la aplicación.
 
----
+Funcionalidad del CRUD de `Enemy`
+- Listado
+- Creación
+- Modificación
+- Borrado
+Funcionalidad del CRUD de `Item`
+- Listado
+- Creación
+- Modificación
+- Borrado
+
+
+
 
 
