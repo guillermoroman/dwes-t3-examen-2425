@@ -117,6 +117,21 @@ CREATE TABLE enemies (
 );
 ```
 
+```sql
+CREATE TABLE `characters` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `health` int NOT NULL DEFAULT '100',
+  `strength` int NOT NULL DEFAULT '10',
+  `defense` int NOT NULL DEFAULT '10',
+  `image` varchar(255) DEFAULT NULL,
+  `created_by` int DEFAULT NULL,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+);
+```
+
 ---
 
 #### Estructura del proyecto
