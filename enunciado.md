@@ -102,9 +102,7 @@ CREATE TABLE items (
     effect INT NOT NULL DEFAULT 0, -- Valor numérico que indica el impacto del ítem
     img VARCHAR(255) -- Ruta o URL de la imagen asociada al ítem
 );
-```
 
-```sql
 CREATE TABLE enemies (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL, -- Nombre del enemigo
@@ -115,9 +113,7 @@ CREATE TABLE enemies (
     defense INT NOT NULL, -- Defensa del enemigo
     img VARCHAR(255) -- Ruta o URL de la imagen asociada al enemigo
 );
-```
 
-```sql
 CREATE TABLE `characters` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
